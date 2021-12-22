@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3B2A4B;
+}
+.flex{
+    display: flex;
+}
+h1{
+    font-size: 40px;
+}
+.meta1{
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+h2{
+    width: 30%;
+    font-family: 'Seymour One', sans-serif;
+    color: white;
+    margin: 63px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    gap: 183px;
+    background: url(images/head.png) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.meta1 p{
+    width: 50%;
+    margin-left: 100px;
+}
+.meta1{
+    border-radius: 100px;
+    margin-top: 200px;
+    margin-right: 24px;
+    margin-left: 24px;
+    gap: 40px;
+}
+
+h1,p,h3{
+    font-family: 'Sora', sans-serif;
+    color: white;
+}
+.para1,.foot,.para2,.foot,.nft,.nftcube,.metav,.nike,.parcelnf,.crypto,.mark,.lunette,.meta1 p{
+    font-size: 30px;
+}
+.iconn{
+    gap: 10px;
+    margin-left: 50px;
+    align-items: center;
+}
+.mark{
+    align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 230px;
+  
+}
+.mark p{
+    width: 40%;
+    margin-bottom: 130px;
+    margin-left: 90px;
+}
+.lunette p{
+    width: 40%;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.lunette{
+    
+    justify-content: center;
+}
+
+.crypto,.parcelnf img{
+    width: 50%;
+    min-width: 600px;
+}
+.nike p{
+    margin-left: 30px;
+    width: 70%;
+    margin-top: 30px;
+}
+.nike{
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+.nike img{
+    width: 100%;
+}
+.nftcube,.foot{
+    flex-direction: column;
+}
+.parcelnf,.crypto p{
+    width: 40%;
+}
+.parcelnf,.crypto img{
+    width: 100%;
+}
+.crypto p{
+    margin-right: 70px;
+    width: 80%;
+    margin-top: 35px;
+}
+.parcelnf p{
+    margin-right: 150px;
+    width:60%;
+    margin-top: 20px;
+}
+.parcelnf,.crypto{
+    margin-left: 30px;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 250px;
+}
+#container{
+    display: flex;
+}
+.metav{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.nftcube{
+    margin-bottom: 200px;
+}
+.nftcube img{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.nftcube p{
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+.nft p{
+    width: 40%;
+}
+.nft{
+    margin-bottom: 122px;
+    align-items: center;
+    margin-left: 500px;
+}
+.para1{
+    width: 60%;
+    margin-bottom: 151px;
+    margin-left: 90px;
+}
+.para2{
+    margin-left: 440px;
+    width: 60%;
+    margin-bottom: 270px;
+}
+.foot img{
+    max-height: 730px;
+    width: 100%;
+    margin-bottom: 146px;
+}
+.foot p{
+    margin-bottom: 180px;
+    width: 60%;
+    text-align: center;
+}
+.flexx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hh2 h2{
+    width: 90%;
+    margin-left: 130px;
+}
+.Meta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Meta h3{
+    font-size: 40px;
+}
+@media (max-width: 930px){
+    #container{
+     flex-direction: column;  
+    }
+     .parcelnf{
+         max-width: 80%;
+     }
+     #container .crypto img{
+         max-width: 93%;
+         margin-right: 100px;
+     }
+     #containerpara p{
+        margin-right: 300px;
+        width: 60%;
+    }
+    .nft{
+      justify-content: right;
+      flex-wrap: wrap;
+      margin-right: 80px;
+    }
+    .nft p{
+        width: 90%;
+        margin-right: 300px;
+    }
+}
